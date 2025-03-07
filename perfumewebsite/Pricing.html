@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing | Luxe Essence</title>
+    <style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+        body {
+            background-color: #0a0a0a;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+
+        
+          
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s ease-in-out;
+}
+
+.logo:hover {
+    color: #FFD700;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+
+
+
+.btn {
+    background: linear-gradient(135deg, #FFD700, #B8860B);
+    color: black;
+    border-radius: 30px;
+    padding: 12px 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.6);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #B8860B, #FFD700);
+    box-shadow: 0px 6px 15px rgba(255, 215, 0, 0.8);
+    transform: scale(1.05);
+}
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 20px;
+            margin-top: 10%;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .divider {
+            width: 60px;
+            height: 3px;
+            background-color: #c39a5f;
+            margin: 20px auto;
+        }
+        .pricing-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .pricing-table th, .pricing-table td {
+            padding: 15px;
+            border: 1px solid #c39a5f;
+            text-align: center;
+        }
+        .pricing-table th {
+            background-color: #c39a5f;
+            color: #0a0a0a;
+            font-size: 1.2rem;
+        }
+        .pricing-table img, .pricing-table video {
+            width: 100px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <header class="hero">
+        <nav class="navbar"><div class="logo">LUXE ESSENCE</div>
+       <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="Perfumes.html">Perfumes</a></li>
+        <li><a href="Pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+       </ul>
+       <a href="Pricing.html"><button class="btn">Pricing</button></a>
+        </nav>
+       
+     
+        </header>
+
+
+
+    <div class="container">
+        <h1>Luxe Essence Pricing</h1>
+        <div class="divider"></div>
+        <p>Discover our premium collection of luxury perfumes at unbeatable prices.</p>
+        
+        <table class="pricing-table">
+            <thead>
+                <tr>
+                    <th>Perfume</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Preview</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sauvage by Dior</td>
+                    <td>Bold and fresh fragrance with woody notes.</td>
+                    <td>$120</td>
+                    <td><img src="images\238245493alt1.webp" alt="Sauvage Perfume"></td>
+                </tr>
+                <tr>
+                    <td>Chanel No. 5</td>
+                    <td>Classic floral fragrance with timeless elegance.</td>
+                    <td>$150</td>
+                    <td><img src="images\n5-eau-de-parfum-limited-edition.webp" alt="Chanel Perfume"></td>
+                </tr>
+                <tr>
+                    <td>After Dark</td>
+                    <td>Luxurious evening scent with deep musk.</td>
+                    <td>$130</td>
+                    <td><img src="images\afterdark.jpg" alt="After Dark Perfume"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
