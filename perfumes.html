@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Luxe Essence</title>
+    <style>
+              * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+        body {
+            background-color: #0a0a0a;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+
+     
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s ease-in-out;
+}
+
+.logo:hover {
+    color: #FFD700;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+
+
+
+.btn {
+    background: linear-gradient(135deg, #FFD700, #B8860B);
+    color: black;
+    border-radius: 30px;
+    padding: 12px 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.6);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #B8860B, #FFD700);
+    box-shadow: 0px 6px 15px rgba(255, 215, 0, 0.8);
+    transform: scale(1.05);
+}
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 20px;
+            text-align: center;
+            margin-top: 10%;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .divider {
+            width: 60px;
+            height: 3px;
+            background-color: #c39a5f;
+            margin: 20px auto;
+        }
+       
+        .gallery img:hover, .gallery video:hover {
+            transform: scale(1.05);
+        }
+
+    
+
+    .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 300px;
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery img, .gallery video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+   
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <nav class="navbar"><div class="logo">LUXE ESSENCE</div>
+       <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="Perfumes.html">Perfumes</a></li>
+        <li><a href="Pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+       </ul>
+       <a href="Pricing.html"><button class="btn">Pricing</button></a>
+        </nav>
+       
+     
+        </header>
+
+
+
+    <div class="container">
+        <h1>Luxe Essence Gallery</h1>
+        <div class="divider"></div>
+        <p>Experience the allure of Luxe Essence through our exclusive gallery.</p>
+        <div class="gallery">
+            <video autoplay muted loop >
+                <source src="videos\J ADORE, THE FILM.mp4" type="video/mp4">
+            </video>
+           
+            <img src="images\3c09d473968bae42c33ebd6044fda1c4.jpg" alt="Luxury Perfume 1">
+            <video autoplay muted loop>
+                <source src="videos\Perfume Cinematic Shot B-roll Video _ Deodorant Commercial Video.mp4" type="video/mp4">
+            </video>
+            <img src="images\photo-1700522604220-471669e4364c.jpeg" alt="Luxury Perfume 2">
+            <video autoplay muted loop  class="large_video">
+                <source src="videos\CHANEL N°5 Perfume _ 3D Product Animation _ Blender 4.0.mp4" type="video/mp4">
+            </video>
+            <img src="images\238245493alt1.webp" alt="Luxury Perfume 3">
+            <img src="images\JADORE-BY-DIOR-1-1024x672.jpg" alt="Luxury Perfume 4">
+            <img src="images\Dior_Baccarat1.webp" alt="Luxury Perfume 5">
+            <img src="images\112601554alt1.webp" alt="Luxury Perfume 6">
+            
+            
+        </div>
+    </div>
+</body>
+</html>
